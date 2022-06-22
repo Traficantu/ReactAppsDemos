@@ -1,0 +1,51 @@
+.nav-items{
+    display: flex;
+    background-color: #21222A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    padding: 30px 25px;
+    height: 70px;
+}
+
+.nav-items > h4{
+    position: relative;
+}
+
+.nav-items > h3{
+    color: #61DAFB;
+    margin-right: auto;
+}
+
+.main-content{
+  padding: 57px 27px;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(./Assets/Images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 65%;
+}
+
+.main-content >h1{
+    font-weight: 700;
+}
+
+.main-content-list > li{
+   padding:5px;
+   color:#DEEBF8;
+}
+
+ul li::marker {
+  
+    color: #61DAFB; 
+    font-size: 1.6em; 
+  }
+
+.nav-logo{
+    height: 30px;
+    margin-right: 8px;
+}
+
+.footer{
+    position: fixed;
+    bottom:0;
+}
