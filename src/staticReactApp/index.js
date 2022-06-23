@@ -1,9 +1,9 @@
 import ReactDOM from "react-dom";
 import React from "react"
 import './staticReactApp/stylesheet.css';
-import Footer from "./staticReactApp/Footer.js" 
-import Header from "./staticReactApp/Header" 
-import MainContent from "./staticReactApp/MainContent" 
+import Footer from "./Footer.js" 
+import Header from "./Header" 
+import MainContent from "./MainContent" 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

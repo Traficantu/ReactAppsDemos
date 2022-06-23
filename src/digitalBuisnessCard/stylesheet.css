@@ -1,0 +1,88 @@
+.header-items{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0.8em;
+}
+
+.header-items > button{
+    
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.header-avatar{
+    height: 250px;
+}
+
+.header-job-title{
+    color: #F3BF99;
+}
+
+.header-job-subtitle{
+    font-size: 12px;
+}
+
+.header-email-btn{
+    margin-right: 20px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+.header-email-btn::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e0";
+    font-size: 18px;
+}
+
+.header-linkedin-btn{
+    color: white;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.header-linkedin-btn::before{
+    font-family: "Font Awesome 5 Brands"; font-weight: bold; content: "\f08c";
+    font-size: 18px;
+}
+
+.main-content{
+    text-align: left;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-top: 2em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2em;
+}
+
+.main-content > p{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content{
+    background-color: #161619;
+    position: relative;
+    top: 15em;
+    height: 104px;
+    color: #918E9B;
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+}
+
+.footer-twitter::before{
+    font-family: "Font Awesome 5 Brands"; font-weight: bold; content: "\f081";
+}
+
+.footer-facebook::before{
+    font-family: "Font Awesome 5 Brands"; font-weight: bold; content: "\f082";
+}
+.footer-instagram::before{
+    font-family: "Font Awesome 5 Brands"; font-weight: bold; content: "\e055";
+}
+.footer-github::before{
+    font-family: "Font Awesome 5 Brands"; font-weight: bold; content: "\f092";
+}
