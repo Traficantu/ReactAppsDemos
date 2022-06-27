@@ -1,9 +1,9 @@
 import ReactDOM from "react-dom/client";
 import React from "react"
 import './digitalBuisnessCard/stylesheet.css';
-import Footer from "./digitalBuisnessCard/Footer" 
-import Header from "./digitalBuisnessCard/Header" 
-import MainContent from "./digitalBuisnessCard/MainContent" 
+import Footer from "./Footer" 
+import Header from "./Header" 
+import MainContent from "./MainContent" 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

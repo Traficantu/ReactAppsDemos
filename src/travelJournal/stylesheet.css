@@ -1,0 +1,79 @@
+.header-text{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #795af5;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
+}
+
+.header-title::before{
+    font-family: "Font Awesome 5 free"; font-weight: bold; content: "\f0ac";
+    font-size: 30px;
+    margin-right: 10px;
+}
+.header-title:hover::before{
+    color:#F55A5A;
+}
+
+.card{
+    margin: 40px;
+    display: flex;
+}
+
+.card-coverImg{
+    height: 250px;
+    width: 300px;
+    margin-right: 40px;
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
+    transition: transform .2s;
+}
+
+.card-coverImg:hover{
+    transform: scale(1.1);
+}
+
+.card--details{
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+}
+
+.card-location-country{
+    margin-right:20px;
+    display: inline;
+    letter-spacing: 5px;
+}
+
+.card-location-mapsLink{
+    display: inline;
+    color:grey;
+}
+
+.card-location-mapsLink:active{
+    color:#F55A5A;
+}
+.card-location-mapsLink:visited{
+    color:#795af5;
+}
+.card--location{
+    position: relative;
+    top:1.5em;
+}
+
+.card-location-country::before{
+    font-family: "Font Awesome 5 free"; font-weight: bold; content: "\f3c5";
+    margin-right: 5px;
+    font-size: 15px;
+    color: #795af5;
+}
+
+.card-title{
+    font-size: 35px;
+    font-weight: 700;
+    color:#F55A5A;
+}
+
+.card-date{
+    font-weight: 700;
+}
